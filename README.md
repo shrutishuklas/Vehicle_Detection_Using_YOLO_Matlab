@@ -20,4 +20,4 @@ YOLO architecture resembles GoogleNet. It has overall 24 convolutional layers, f
 The architecture of YOLO functions by scaling down the input image to 448x448 before entering the convolutional network. A 3x3 convolution is used to create a cuboidal output, in succession of a 1x1 convolution which ensures the reduction of the number of channels. The final layer utilizes a linear activation function while ReLU is the activation function used in the background.
 The model is further regularized and prevented from overfitting using additional techniques like batch normalization and dropout.
 
-![plot]()
+![plot](Vehicle_Detection_Using_YOLO_Matlab/Supporting_Images/YOLO_Architecture.png)
